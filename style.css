@@ -4,6 +4,13 @@
   box-sizing: border-box;
   
 }
+
+
+
+
+
+
+
 .header{
   width: auto;
   height:100vh;
@@ -13,6 +20,8 @@
   position: relative;
  
 }
+
+
 .text-box{
   padding: 0px 100px;
   position: absolute;
@@ -384,10 +393,11 @@ transition: 0.5s;
   background-color: rgb(204, 17, 17);
   text-align: center;
   padding-top: -15%;
+  border-radius: 10px;
 
 }
 
-  h3{
+.corporate h3{
     position: absolute;
     left: 45%;
     top: -18%;
@@ -395,7 +405,7 @@ transition: 0.5s;
     text-align: left;
   }
 
-p {
+.corporate p {
 color: rgb(247, 241, 241);
 font-size: 18px;
 font-weight: lighter;
@@ -403,7 +413,7 @@ line-height: 22px;
 padding: 10px;
 }
 
-.row {
+.corporate row {
 margin-top: 6%;
 display: flex;
 justify-content: space-between;
@@ -417,7 +427,7 @@ background: #095175;
 border-radius: 10px;
 
 margin-top: -4%;
-margin-bottom: 5%;
+margin-bottom: 3%;
 padding: 80px 18px;
 box-sizing: border-box;
 transition: 0.5s;
@@ -433,6 +443,139 @@ transition: 0.5s;
   position: absolute;
   top: 2%;
 
+}
+
+.business{
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  background-color: rgb(230, 196, 196);
+  position: absolute;
+  top: 340%;
+  border-radius: 10px;
+  color: #151313;
+  border: 10px solid #f7fafa;
+}
+.business p{
+ 
+  
+  text-align: center;
+  color: #151313;
+}
+
+.business h6{
+  position: absolute;
+    left: 45%;
+    top: -25%;
+    font-size: 25px;
+    text-align: left;
+
+}
+.moreText{
+  display: none;
+
+}
+.read-more-btn{
+  padding: 5px 20px;
+  background-color: #095175;
+  color: #151313;
+  outline: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+.text.show-more .moreText{
+display: inline;  
+}
+
+
+
+
+.CEO {
+   
+  width: 80%;
+  position: absolute;
+  top: 175%;
+  left: 10%;
+  margin: 100% 0;
+  background-color: rgb(204, 17, 17);
+  text-align: center;
+  padding-top: -15%;
+  border-radius: 10px;
+
+}
+
+.CEO h7{
+    position: absolute;
+    left: 45%;
+    top: -18%;
+    font-size: 25px;
+    text-align: left;
+  }
+
+.CEO p {
+color: rgb(247, 241, 241);
+font-size: 18px;
+font-weight: lighter;
+line-height: 22px;
+padding: 10px;
+}
+
+.CEO row5 {
+margin-top: 6%;
+display: flex;
+justify-content: space-between;
+}
+
+.CEO-col {
+  position: relative;
+  left: 38%;
+flex-basis: 60%;
+background: #095175;
+border-radius: 10px;
+
+margin-top: -4%;
+margin-bottom: 3%;
+padding: 80px 18px;
+box-sizing: border-box;
+transition: 0.5s;
+}
+.CEO-col img {
+  position: absolute;
+  top: -10%;
+  right: 125%;
+  height: 200px;
+  border-radius: 20%;
+}
+.CEO-col p {
+  position: absolute;
+  top: 2%;
+
+}
+
+
+
+@media only screen and (max-width: 756px) {
+  .about {   
+    top:100%;
+}
+.corporate {  
+  top:145%;
+}
+.hello {
+  top:160%;
+  }
+  .hello h2{
+    top: 320%;
+  }
+.Quality {  
+  top:285%;
+}
+.testimonial {
+  top: 350%;
+}
+.business{
+  top: 402%;
+}
 }
 
 
